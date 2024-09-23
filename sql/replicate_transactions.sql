@@ -1,3 +1,3 @@
--- Replicate data from transactions to transactions_replica
+-- Replicate data from transactions_old to transactions_replica
 INSERT INTO transactions_replica
-SELECT * FROM transactions;
+SELECT * FROM transactions_old;
